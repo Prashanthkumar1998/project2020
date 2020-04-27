@@ -1,0 +1,110 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <script src="signup.js"></script>
+</head>
+<body>
+    <div>
+    <form name="myForm" action="login.html" onsubmit="return validate()">
+   <table cellpadding="10" width="37%" bgcolor="99FFFF" align="center"
+cellspacing="4">
+
+<tr>
+<td colspan=2>
+<center><font size=5><b>Registration Form</b></font></center>
+</td>
+</tr>
+
+<tr>
+<td>FullName</td>
+<td><input type=text name="fullname" minlength="4" id="name" size="30" height="20px" placeholder="Your fullname"></td>
+</tr>
+
+<tr>
+<td>Spacialzation</td>
+<td><input type="text" name="Spacialization" id="Spacialization"
+size="30" placeholder="spacialization"></td>
+</tr>
+<tr>
+<td>Address</td>
+<td><input type="text" name="address" id="address" placeholder="address" minlength="15" size="30"></td>
+</tr>
+
+
+<tr>
+<td >Gender </td>
+<td> <input name="gender" type="radio" value="m" /> Male
+    <input name="gender" type="radio" value="f" /> Female
+</td>
+
+</tr>
+
+<tr>
+<td>City </td>
+<td><select id="city" name="City">
+<option value="-1" selected>select..</option>
+<option value="New Delhi">Bangalore</option>
+<option value="Mumbai">Hyderbad</option>
+<option value="Goa">GOA</option>
+<option value="Patna">Mysore</option>
+</select></td>
+</tr>
+
+<tr>
+<td>Course Type</td>
+<td><select name="Course">
+<option value="-1" selected>select..</option>
+<option value="B.Tech">B.E</option>
+<option value="B.Tech">B.TECH</option>
+<option value="MCA">MCA</option>
+<option value="MBA">MBA</option>
+<option value="BCA">BCA</option>
+</select></td>
+</tr>
+
+</tr>
+
+
+<tr>
+<td>PinCode</td>
+<td><input type="text" name="pincode" id="pincode" size="30"></td>
+
+</tr>
+<tr>
+<td>EmailId</td>
+<td><input type="text" name="email" id="email" size="30"></td>
+</tr>
+<tr>
+    <td>Password</td>
+    <td><input type="password" name="Password" id="pass" size="30"></td>
+    </tr>
+
+<tr>
+    <tr>
+        <td>Comfirm Password</td>
+        <td><input type="password" name="Password" id="rpass" size="30"></td>
+        </tr>
+    
+    <tr>
+
+<td>DOB</td>
+<td><input type="date" name="dob" id="dob" size="30"></td>
+</tr>
+
+<tr>
+<td>MobileNo</td>
+<td><input type="text" name="mobileno"  id="mobileno" size="30"></td>
+</tr>
+<tr>
+    <td>Upload your Pic</td>
+    <td><input type="file" name="file" id="file" size="30"></td>
+    </tr>
+<tr>
+<td><input class="reset" type="reset"></td>
+<td><input class="submit" type="submit" value="Submit"></td>
+</tr>
+</table>
+</form>
+    </div>
+</body>
+</html>
